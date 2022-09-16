@@ -79,6 +79,10 @@
 }
 .main__text h1 {
     font-weight: bold;
+    font-size: 50px;
+}
+.main__text p {
+    font-size: 13px;
 }
 .main__images {
     display: flex;
