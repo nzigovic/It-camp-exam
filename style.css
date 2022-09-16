@@ -9,18 +9,17 @@
     width: 100%;
 }
 .container {
-    /* height: 100px !important; */
+    
     display: flex;
     align-items: center;
-    /* justify-content: space-between!important;  */
-    /* background-color: red; */
+    
 }
 
 #logo {
     width: 90px;
 }
 #slika {
-    width: 80%;
+    width: 100%;
 
 }
 
