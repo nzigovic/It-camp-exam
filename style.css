@@ -4,20 +4,24 @@
 }
 
 .heder {
-    height: 100vh;
+    height: 110vh;
     background-color: #5ccdff;
     width: 100%;
 }
 .container {
-    height: 100px !important;
+    /* height: 100px !important; */
     display: flex;
     align-items: center;
-    justify-content: space-between!important; 
-    background-color: red;
+    /* justify-content: space-between!important;  */
+    /* background-color: red; */
 }
 
 #logo {
     width: 90px;
+}
+#slika {
+    width: 80%;
+
 }
 
 .navbar {
@@ -65,4 +69,21 @@
 
 .main {
     display: flex;
+    margin-top: 10%;
+}
+
+.main__text {
+    display: flex;
+    flex: 1;
+    color: #fff;
+    flex-direction: column;
+}
+.main__text h1 {
+    font-weight: bold;
+}
+.main__images {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
 }
