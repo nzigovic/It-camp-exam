@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 
 .heder {
@@ -27,6 +28,7 @@
     display: flex;
     width: 100%;
     height: 100px;
+    position: sticky;
 }
 
 .navbar ul li a {
@@ -89,4 +91,27 @@
     flex: 2;
     align-items: center;
     justify-content: center;
+}
+
+.main__card {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__card-text {
+    flex-direction: column;
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__card__kartice {
+    background-color: red;
+    width: 100%;
+    height: 350px;
 }
