@@ -110,8 +110,35 @@
     align-items: center;
 }
 
+
+
 .main__card__kartice {
-    background-color: red;
-    width: 100%;
     height: 350px;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.main-card-1 {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.main-card-2  {
+    width: 300px;
+}
+.main-card-3 {
+    width: 300px;
+} 
+
+.statistika {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(204, 204, 204, 0.212);
 }
