@@ -142,3 +142,36 @@
     width: 100%;
     background-color: rgba(204, 204, 204, 0.212);
 }
+
+#a-tag a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.main__card__kartice img {
+    height: 70px;
+    display: block;
+    width: 80px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    background-color: rgba(204, 204, 204, 0.281);
+    padding: 15px 20px 15px 20px
+}
+
+.slike {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__card__kartice p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.main__card__kartice :hover   {
+    background-color: red;
+}
