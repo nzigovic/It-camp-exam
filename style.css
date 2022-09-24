@@ -138,6 +138,10 @@
 } 
 
 .statistika {
+    display: flex !important;
+    flex-direction: column ;
+    align-items: center !important;
+    justify-content: center;
     height: 100vh;
     width: 100%;
     background-color: rgba(204, 204, 204, 0.212);
@@ -174,4 +178,119 @@
 
 .main__card__kartice :hover   {
     background-color: red;
+}
+.con2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.statistika__linkovi a{
+    text-decoration: none;
+    background-color: red;
+    padding: 15px 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.slika2 {
+    display: flex;
+    flex: 1;
+}
+.statistika__linkovi {
+    display: block;
+}
+
+.statistika_row {
+    display: flex;
+    flex-direction: row;
+}
+.statistika_title {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+#p-tag {
+    font-weight: bold;
+}
+
+#slika3 {
+    width: 50%;
+    height: 60%;
+}
+
+.sekcija-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height:100vh
+}
+.sekcija-3 h1 {
+    text-align: center;
+}
+
+.sekcija-4 {
+    background-color: rgba(204, 204, 204, 0.281);
+
+}
+
+.con3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sekcija_placanja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.placanje {
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: 500px;
+}
+
+.placanje1 {
+    background-color: white;
+
+}
+
+.naslov {
+    background-color: rgba(204, 204, 204, 0.301);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placanje2 {
+    height: 450px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #cccc;
+    border-radius: 5px;
+}
+
+.cena{ 
+    /* font-size: px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    height: 150px;
+    background-color: #5ccdff;
+    
+}
+
+.cena h3 {
+    font-size: 55px;
+    font-weight: bold;
 }
