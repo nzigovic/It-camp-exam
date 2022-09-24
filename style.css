@@ -254,6 +254,7 @@
     background-color: red;
     width: 100%;
     height: 500px;
+    justify-content: center;
 }
 
 .placanje1 {
@@ -280,17 +281,35 @@
 }
 
 .cena{ 
-    /* font-size: px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* font-size: px;
     justify-content: center;
     align-items: center;
     display: flex;
     border-radius: 5px;
     height: 150px;
-    background-color: #5ccdff;
+    background-color: #5ccdff; */
     
 }
 
 .cena h3 {
     font-size: 55px;
     font-weight: bold;
+}
+.dugme {
+    display: block;
+}
+.placanje-block {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+   /* width: 40%; */
+    border-radius: 5px;
+    /* height: 150px; */
+    background-color: rgba(204, 204, 204, 0.301);
+    padding: 5% 10%;
+    border-radius: 10px;
 }
