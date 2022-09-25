@@ -94,7 +94,7 @@
 }
 
 .main__card {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -176,14 +176,20 @@
     font-size: 15px;
 }
 
-.main__card__kartice :hover   {
-    background-color: red;
+.main__card__kartice :hover  a {
+    color: red;
 }
-.con2 {
+.main__card__kartice :hover img{
+    background-color: #59c7ff;
+}
+.con-2 {
     display: flex;
     flex-direction: column;
 }
+.a-tag-pokazivac :hover {
+    color: white !important;
 
+}
 .statistika__linkovi a{
     text-decoration: none;
     background-color: red;
