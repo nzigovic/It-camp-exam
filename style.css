@@ -519,7 +519,9 @@
   .text-small {
     font-size: 0.9rem;
   }
-  
+  footer {
+    height: 45vh;
+  }
   a {
     color: inherit;
     text-decoration: none;
@@ -540,7 +542,10 @@
   }
   
   footer {
-    background: #212529;
+    background: #000410;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   
@@ -550,7 +555,12 @@
     /* flex-direction: column; */
     width: 15%;
   }
-
+.icona {
+    background-image: url("Images/send.png");
+    display: flex; 
+    background-position: center;
+    background-size: cover;
+}
   .icons {
     width: 20px;
     margin: 5px;
