@@ -35,17 +35,23 @@
 
 .navbar ul li a {
     text-decoration: none;
-    margin: 10px;
+    padding: 10px;
     text-transform: uppercase;
     font-size: 14px;
-    color: #fff;
+    color: #fff ;
 }
-.navbar ul li {
-    text-decoration: none;
-    display: flex;
-}
-.navbar ul {
-    display: flex;
+/* .navbar  :hover a {
+    /* color: wheat !important; */
+    /* } */ */
+    .navbar ul li {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        position: relative;
+    }
+    .navbar ul {
+        display: flex;
+        list-style: none;
    
     text-decoration: none;
 }
@@ -321,9 +327,7 @@
     display: inline-block;
     justify-content: center;
     align-items: center !important;
-   /* width: 40%; */
     border-radius: 5px;
-    /* height: 150px; */
     background-color: rgba(204, 204, 204, 0.301);
     padding: 5% 10%;
     border-radius: 10px;
@@ -335,12 +339,8 @@
 .cena2 {
     display: flex;
     justify-content: center;
-    position: absolute;
 }
 
-.dugme {
-    position: relative;
-}
 
 
 
@@ -394,7 +394,7 @@
 
 
 .main__card__kartice  :hover a {
-    color: #5ccdff !important;
+    color: #5ccdff ;
 }
 
 .main__card__kartice a {
@@ -478,6 +478,7 @@
 
 .botton-5 :hover {
     color: white;
+    background-color: #17599c;
     
 }
 
@@ -586,4 +587,75 @@
     color: white;
   }
 
-  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* padding: 12px 16px; */
+    z-index: 1;
+    margin: 10px;   
+}
+
+.dropdown:hover .dropdown-content {
+    transition: 0.7s !important;
+    display: block;
+}
+
+.dropdown-content li  a {
+      color: black !important;
+       width: 100%;     
+       /* padding: 5px; */
+    }
+    
+    
+        
+        #preko :hover {
+    color: white!important;
+    background-color: #5ccdff;
+}
+
+/* blog stranica */
+.heder-3 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image : linear-gradient(rgba( 0,0,0,0.75 ),rgba( 0,0,0,0.75 )), url("Images/pexels-melike-benli-8633368.jpg") ;
+     background-position: center;
+     background-size: cover;
+
+    
+    }
+
+
+    .heder-3text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        flex-direction: column;
+        color: white;
+        transition: 0.4s;
+    }
+
+    
+    .view-more a {
+        text-decoration: none;
+        color: black;
+        padding:15px 30px ;
+        margin-top: 15px;
+        background-color: white;
+    }
+
+    .view-more  :hover  {
+        color: white;
+        background-color: #3bacf0;
+    }
