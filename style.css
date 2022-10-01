@@ -628,7 +628,8 @@
     height: 100vh;
     background-image : linear-gradient(rgba( 0,0,0,0.75 ),rgba( 0,0,0,0.75 )), url("Images/pexels-melike-benli-8633368.jpg") ;
      background-position: center;
-     background-size: cover;
+     background-size: cover; 
+     
 
     
     }
@@ -658,4 +659,60 @@
     .view-more  :hover  {
         color: white;
         background-color: #3bacf0;
+    }
+
+    .blog-sekcija-1 img {
+        height: 200px;
+
+    }
+
+    .blog-sekcija-1 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        /* position: relative; */
+    }
+    
+    /* .preko-slike {
+        width: 150px;
+        position: absolute;
+        display: flex;
+        height: 40px;
+        top: 0;
+        left: 0;
+        background-color: black;
+    } */
+
+    .blog-sekcija-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: end;
+        flex-direction: column;
+        
+    }
+
+    .blog-sekcija-2-text img {
+        width: 18px;
+      
+    }
+
+    .blog-sekcija-2-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .blog-sekcija-2-a-text {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        padding-left: 10%;
+    }
+
+    .blog-sekcija-2-a-text a {
+        text-decoration: none;
+        color: black;
+        margin-top: 10px;
+       
     }
