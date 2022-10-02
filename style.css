@@ -160,6 +160,7 @@
 } 
 
 .statistika {
+  flex-wrap: wrap;
     display: flex !important;
     flex-direction: column ;
     align-items: center !important;
@@ -213,13 +214,13 @@
 }
 .text-placanje {
     text-align: center;
+
 }
 .statistika__linkovi a{
     padding: 15px 50px;
     background-color: #5ccdff;
     text-decoration: none;
     color: black;
-    font-size: 18px !important;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -284,6 +285,12 @@
     width: 100%;
     height: 500px;
     justify-content: center;
+    flex-wrap: wrap;
+}
+.wrap-1  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .placanje1 {
@@ -312,12 +319,25 @@
     background-color: #59c7ff !important;
     color: white;
 }
-.placanje-block, .dugme :hover  {
+/* .placanje-block  :hover  {
     background-color:white;
     color: black;
 
     
+} */
+.placanje :hover .placanje-block {
+  background-color: #59c7ff;
 }
+.placanje :hover .cena {
+  color: white;
+ 
+}
+
+.placanje :hover .dugme a {
+  color: #000;
+  background-color: white;
+}
+
 
 .cena{ 
     justify-content: center;
@@ -407,7 +427,7 @@
 }
 
 
-.main__card__kartice  :hover a {
+.main-card-1  :hover  a {
     color: #5ccdff ;
 }
 
@@ -789,7 +809,7 @@ body {
   
   #contact {
     width: 100%;
-    height: 100%;
+    height: 80vh;
   }
   
   .section-header {
@@ -976,7 +996,46 @@ body {
     .direct-contact-container, .form-horizontal {
       margin: 0 auto;
     }  
-    
+    @media screen and (max-width: 768px) {
+      .main__images {display: none;}
+    }
+
+    @media screen and (max-width: 768px){
+
+      .sekcija-5-slika {
+        width: 150px;
+      }
+    }
+
+
+    @media (max-width: 850px) {
+      .sekcija-5 {
+        display: flex;
+        flex-direction: column;
+      }
+
+
+    @media screen and (max-width: 850px) {
+      .sekcija-4 {
+        display: flex;
+        flex-direction: column;
+      }}
+    .slika2 {
+      max-width: 100%;
+  height: auto;
+    }
+
+
+    @media screen and (max-width: 850px) {
+      .sekcija_placanja {
+        display: flex;
+        flex-direction: column;
+      }}
+
+
+
+
+
     .direct-contact-container {
       margin-top: 60px;
       max-width: 300px;
@@ -1119,4 +1178,8 @@ body {
     div.main__images {
       display: none;
     }
+  }
+  .sekcija_placanja {
+    display: flex;
+    flex-wrap: wrap;
   }
